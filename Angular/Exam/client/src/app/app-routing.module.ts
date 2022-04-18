@@ -11,7 +11,7 @@ const routes: Routes = [
     children: [],
   },
   {
-    path: '/user',
+    path: 'user',
     pathMatch: 'full',
     component: UserComponent,
     children: [],
