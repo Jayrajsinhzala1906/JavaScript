@@ -8,9 +8,6 @@ import { ProductComponent } from './product/product.component';
 import { ProductModule } from './product/product.module';
 import { UserComponent } from './user/user.component';
 import { UserModule } from './user/user.module';
-import { MatButtonModule } from '@angular/material/button';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -22,9 +19,6 @@ import {MatIconModule} from '@angular/material/icon';
     ProductModule,
     UserModule,
     AppRoutingModule,
-    MatButtonModule,
-    MatIconModule,
-    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,7 +9,7 @@ import { User } from '../services/user.model';
   providers: [UserServiceService],
 })
 export class UserComponent implements OnInit {
-  constructor(readonly userServices: UserServiceService) {}
+  constructor() {}
 
   ngOnInit(): void {}
 }
